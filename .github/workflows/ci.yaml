@@ -9,9 +9,6 @@ jobs:
     name: 'Terraform'
     runs-on: ubuntu-latest
     environment: production
-    defaults:
-      run:
-        working-directory: terraform
 
 
     steps:
