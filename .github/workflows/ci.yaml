@@ -11,7 +11,7 @@ jobs:
     environment: production
     defaults:
       run:
-        working-directory: ./terraform
+        working-directory: terraform
 
 
     steps:
