@@ -19,7 +19,7 @@ jobs:
         uses: hashicorp/terraform-github-actions/init@v0.4.0
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          TF_ACTIVE_WORKDIR: '/home/runner/work/test-aks/terraform'
+          TF_ACTIVE_WORKDIR: '/home/test-aks/terraform'
           ARM_CLIENT_ID: ${{ secrets.ARM_CLIENT_ID }}
           ARM_CLIENT_SECRET: ${{ secrets.ARM_CLIENT_SECRET }}
           ARM_TENANT_ID: ${{ secrets.ARM_TENANT_ID }}
