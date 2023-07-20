@@ -30,7 +30,6 @@ jobs:
 
     - name: Output
       run: |
-        echo "${{ GITHUB_WORKSPACE }}"
         echo "$(pwd)"
       
     - name: Terraform Apply
