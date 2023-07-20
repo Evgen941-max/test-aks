@@ -26,6 +26,12 @@ jobs:
 
     - name: Terraform Validate
       uses: hashicorp/terraform-github-actions/init@v0.3.7
+
+
+    - name: Output
+      run: |
+        echo "${ GITHUB_WORKSPACE }"
+        echo "$(pwd)"
       
     - name: Terraform Apply
       uses: hashicorp/terraform-github-actions/apply@v0.4.0
